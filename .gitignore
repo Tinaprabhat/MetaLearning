@@ -1,0 +1,184 @@
+# =============================================================================
+# Python
+# =============================================================================
+
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# =============================================================================
+# PyTorch / ML
+# =============================================================================
+
+# Model checkpoints and saved weights — large binaries, commit deliberately
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Training run artefacts
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tb_logs/
+
+# Jupyter notebooks (use .py scripts instead; keep notebooks out of VCS
+# unless you explicitly want to track them)
+.ipynb_checkpoints/
+*.ipynb
+
+# Generated plots (reproducible from code — no need to track)
+# Comment this out if you want plots committed (e.g. for README display)
+# plots/
+
+# Large data files
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# =============================================================================
+# Virtual environments
+# =============================================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# =============================================================================
+# Environment / secrets
+# =============================================================================
+
+.env
+.env.*
+!.env.example
+*.key
+secrets.yaml
+secrets.json
+
+# =============================================================================
+# Editors & IDEs
+# =============================================================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Operating system
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# =============================================================================
+# Project-specific
+# =============================================================================
+
+# Google Drive upload temp files (present in original zip)
+.tmp.driveupload/
+
+# Local config overrides
+config.local.yaml
+config.local.json
